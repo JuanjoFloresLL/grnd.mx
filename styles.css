@@ -1,0 +1,49 @@
+.navbar {
+    background-color: navy;
+    color: gold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: gold;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: navy;
+}
+
+button {
+    background-color: gold;
+    color: navy;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: navy;
+    color: gold;
+}
+
+footer {
+    background-color: navy;
+    color: gold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.service {
+    border: 1px solid navy;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
